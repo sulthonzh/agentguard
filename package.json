@@ -1,0 +1,29 @@
+{
+  "name": "agentguard",
+  "version": "1.0.0",
+  "description": "File-level lock service for AI coding agents running on the same machine",
+  "main": "dist/index.js",
+  "bin": {
+    "agentguard": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run"
+  },
+  "keywords": ["ai", "agents", "file-lock", "coordination", "claude", "cursor", "copilot", "mcp"],
+  "author": "sulthonzh",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0",
+    "vitest": "^1.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
