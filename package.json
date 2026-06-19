@@ -12,7 +12,16 @@
     "dev": "tsx src/cli.ts",
     "test": "vitest run"
   },
-  "keywords": ["ai", "agents", "file-lock", "coordination", "claude", "cursor", "copilot", "mcp"],
+  "keywords": [
+    "ai",
+    "agents",
+    "file-lock",
+    "coordination",
+    "claude",
+    "cursor",
+    "copilot",
+    "mcp"
+  ],
   "author": "sulthonzh",
   "type": "module",
   "license": "MIT",
@@ -25,5 +34,21 @@
     "tsx": "^4.7.0",
     "vitest": "^1.6.0",
     "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/agentguard.git"
+  },
+  "homepage": "https://github.com/sulthonzh/agentguard",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/agentguard/issues"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
